@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Compiling final.cpp"
+echo "Creating final executable"
+g++ final.cpp GPIO.cpp AnalogIn.cpp -o final -pthread
+echo "Finished"
